@@ -556,11 +556,15 @@
 
 
     #hero_section {
-        padding: 60px 0px;
+        padding: 60px 10px;
         flex-direction: column;
         align-items:center;
         text-align: center;
     }
+
+    #hero_left_section {
+        width: 100%;
+     }
 
     #hero_left_section #hero_content .collection {
                font-size: 0.675rem;
@@ -568,11 +572,11 @@
      }
 
     #hero_left_section #hero_content h1 {
-    font-size: 1.8rem;
+            font-size: 2rem;
     }
 
     #hero_left_section #hero_content p {
-       font-size: 0.8rem;
+       font-size: 1rem;
       
     }
 
