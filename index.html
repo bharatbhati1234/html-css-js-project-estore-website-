@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estore website</title>
+
+    <!-- swiper css cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <!-- fontawesome cdn  -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!-- css file  -->
+    <link rel="stylesheet" href="assets/style.css">
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- navbar1 ------------------------------ -->
+        <nav id="nav1">
+            <div id="nav1_part1">
+                <i class="bi bi-telephone-fill me-2"></i> <span>Need help? Call us:</span>
+                <a href="tel:+1234567890">+1 (234) 567-890</a>
+            </div>
+            <div class="nav1_part2 swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">🚚 Free shipping on orders over $50</div>
+                    <div class="swiper-slide">💰 30 days money back guarantee.</div>
+                    <div class="swiper-slide">🎁 20% off on your first order</div>
+                </div>
+            </div>
+            <div id="nav1_part3">
+                <i class="bi bi-translate me-2"></i>
+                <select id="language" name="">
+                    <option value="english">EN</option>
+                    <option value="hindi">HN</option>
+                    <option value="Rajasthani">Rj</option>
+                </select>
+                <select id="currency" name="">
+                    <option value="usd">$ USD</option>
+                    <option value="eur">EUR</option>
+                    <option value="gpr">GPR</option>
+                </select>
+
+            </div>
+
+        </nav>
+
+        <!-- navbar2 ------------------------------ -->
+
+        <nav id="nav2">
+            <div id="nav2_part1">
+                <h1 id="logo">eStore</h1>
+            </div>
+            <div id="nav2_part2">
+                <form action="" method="">
+                    <input type="text" id="desktop_searchbar" placeholder="Search for products">
+
+                    <a href="" id="nav2_part2_searchbtn"><i class="bi bi-search"></i></a>
+                </form>
+            </div>
+            <div id="nav2_part3">
+                <div id="personicon">
+                    <i class="bi bi-person"></i>
+                </div>
+                <div id="favouriteicon">
+                    <i class="bi bi-heart"></i>
+                </div>
+                <div id="basketicon">
+                    <i class="bi bi-cart3"></i>
+                </div>
+                <div id="hamburgericon">
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list me-0"></i>
+                </div>
+                <div id="crossicon">
+                    <i class="mobile-nav-toggle d-xl-none bi me-0 bi-x"></i>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- navbar3 ------------------------------ -->
+
+        <nav id="nav3">
+            <ul id="nav3list">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Category</a></li>
+                <li><a href="">Product Details</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">Checkout</a></li>
+                <li><select id="dropdown">
+                        <option value="dropdown1">Dropdown1</option>
+                        <option value="deepdropdown">Deep Drop</option>
+                        <option value="dropdown2">Dropdown2</option>
+                        <option value="dropdown3">Dropdown3</option>
+                        <option value="dropdown4">Dropdown4</option>
+                    </select></li>
+                <li><a href="">Megamenu 1</a></li>
+                <li><a href="">Megamenu 2</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+        </nav>
+
+
+        <!-- mobile navbar3    ----------------------- -->
+
+        <nav id="mobilenav3">
+            <div id="crossicon">
+                <i class="mobile-nav-toggle d-xl-none bi me-0 bi-x"></i>
+            </div>
+            <ul id="mobilenav3list">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Category</a></li>
+                <li><a href="">Product Details</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">Checkout</a></li>
+                <li><select id="dropdown">
+                        <option value="dropdown">Dropdown</option>
+                        <option value="dropdown1">Dropdown1</option>
+                        <option value="deepdropdown" id="deepdropdown">Deep Dropdown</option>
+                        <option value="dropdown2">Dropdown2</option>
+                        <option value="dropdown3">Dropdown3</option>
+                        <option value="dropdown4">Dropdown4</option>
+                    </select></li>
+                <li><a href="">Megamenu 1</a></li>
+                <li><a href="">Megamenu 2</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <section>
+        <div id="hero_section">
+            <div id="hero_left_section">
+                <div id="hero_content">
+                    <span class="collection">New Collection 2025</span>
+                    <h1>Discover Stylish <span id="fashion">Fashion</span> For Every Season</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis, pulvinar dapibus leo. Vestibulum ante ipsum primis in faucibus.</p>
+                    <div id="hero_button_section">
+                        <a href="" id="show_btn" class="btn">Shop Now <i class="bi bi-arrow-right"></i></a>
+                        <a href="" id="view_btn" class="btn">View Collection</a>
+                    </div>
+                    <div id="hero_features_section">
+                        <div id="truckicon">
+                            <i class="bi bi-truck"></i><span>Free Shipping</span>
+                        </div>
+                        <div id="truckicon">
+                            <i class="bi bi-shield-check"></i><span>Secure Payment</span>
+                        </div>
+                        <div id="truckicon">
+                            <i class="bi bi-arrow-repeat"></i><span>Easy Returns</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div id="hero_right_section">
+                <img src="assets\images\product-f-9.webp" id="ladyimg">
+                 <div id="productimginfo1" class="productimginfo">
+                    <img src="assets\images\product-4.webp">
+                    <div id="product_info1" class="product_info ">
+                        <h4>Summer Collection</h4>
+                        <span class="price">$89.99</span>
+                    </div>
+                 </div>
+                  <div id="productimginfo2" class="productimginfo">
+                    <img src="assets\images\product-3.webp">
+                    <div id="product_info2" class="product_info">
+                        <h4>Casual Wear</h4>
+                        <span class="price">$59.99</span>
+                    </div>
+                 </div>
+                 <div id="circle_off">
+                    <span class="percent">30%</span>
+                    <span class="text">OFF</span>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
