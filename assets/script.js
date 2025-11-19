@@ -36,6 +36,21 @@ function fun2(){
 
 
 
+// onscroll animation -----------------------------------------------------
+
+
+  const srElements = document.querySelectorAll(".scroll-reveal");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add("show");
+      }
+    });
+  }, { threshold: 0.2 });
+
+  srElements.forEach(el => observer.observe(el));
+
 
 
 
