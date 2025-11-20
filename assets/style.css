@@ -467,8 +467,8 @@
 
 
 #card_main_section{
-    padding: 20px 110px;
-    background-color: var(--background-color);
+    padding: 30px 110px;
+    background-color: #f5f8fc;
    
 }
 
@@ -518,6 +518,136 @@
     color: color-mix(in srgb, var(--default-color), transparent 20%);
     line-height: 1.5;
 }
+
+
+
+
+
+
+
+/* category swipper ----------------------------------------------------------------------------------- */
+
+
+#category_swiper_section{
+    margin-top: 40px;
+    padding: 20px 110px;
+}
+
+
+.categorySwiper .swiper-slide {
+    display: block !important;   
+}
+
+
+.categorySwiper {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.cat_box {
+    width: 199px;
+    height: 100%;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    
+}
+
+.cat_box:hover img{
+    transform: rotate(2deg) scale(1.08);
+    filter: brightness(1.1);     
+}
+
+
+.cat_img img {
+    transition: transform 0.2s ease, filter 0.2s ease;
+    width: 100%;
+    object-fit: contain;  
+    display: block;      
+    margin-bottom: 12px; 
+}
+
+
+.cat_info {
+    display: block;      
+}
+
+.category-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.category-count {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--default-color);     /* arrow color */
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: white;
+    transition: 0.1s ease;
+    padding: 10px;
+    
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* mobile responsive -------------------------------------------------------------------------------------------------- */
 
@@ -759,13 +889,19 @@
 
 
 
+/* category swiper mobile responsive ------------------------------------------------------------------------------------------------------------------------------- */
 
 
 
+#category_swiper_section {
+    padding: 20px 10px;
+}
 
 
 
-
+.category-title {
+    font-size: 15px;
+}
 
 
 

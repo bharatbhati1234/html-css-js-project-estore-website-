@@ -53,6 +53,31 @@ function fun2(){
 
 
 
+// category swiper -------------------------------------------------------------------------------------------------
+
+
+var categorySwiper = new Swiper(".categorySwiper", {
+    loop: true,
+    spaceBetween: 20,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints: {
+        0: { slidesPerView: 2 },
+        480: { slidesPerView: 2.5 },
+        640: { slidesPerView: 3 },
+        768: { slidesPerView: 4 },
+        1024: { slidesPerView: 5 }
+    }
+});
+
 
 
 
