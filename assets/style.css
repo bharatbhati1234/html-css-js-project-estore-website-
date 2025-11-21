@@ -820,6 +820,264 @@
 
 
 
+/* All, Clothing , Acessories, Electronics Section -------------------------------------------------------------------------------------------------------- */
+
+
+
+#product_all_main_section {
+    padding: 60px 120px;
+}
+
+#product_filter_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#product_filter_heading .button {
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--default-color);
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+#filter_product_section {
+    background: #f8f9fa;
+    width: 25%;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.4s ease;
+}
+
+#filter_product_section:hover {
+    background-color: var(--contrast-color);
+    transform: translateY(-10px);
+    box-shadow: 0 6px 18px 6px rgba(0, 0, 0, 0.07);
+
+
+
+}
+
+
+
+#filter_product_section .filter_product_tag .sale_tag {
+    color: var(--contrast-color);
+    background-color: var(--accent-color);
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-right: 5px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+#filter_product_section .filter_product_actions .button {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--surface-color);
+    border: none;
+    color: var(--heading-color);
+    margin-bottom: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+
+}
+
+#filter_product_section .filter_product_actions {
+    position: absolute;
+    bottom: 38%;
+    right: 35%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#filter_product_section .filter_product_actions .button:hover {
+    color: var(--accent-color);
+    transform: translateY(-2px);
+
+}
+
+#filter_product_section .filter_product_actions .button {
+    opacity: 0;
+    transition: 0.2s ease;
+   
+}
+
+#filter_product_section .filter_product_actions .button i{
+    font-size: 16px;
+}
+
+#filter_product_section:hover .filter_product_actions .button {
+   opacity: 1;
+
+}
+
+#filter_product_section .filterproducts {
+    position: relative;
+
+}
+
+#filter_product_section .filterproducts .hover_filter_product {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+
+}
+
+
+#filter_product_section:hover .filterproducts .hover_filter_product {
+    opacity: 1;
+    transition: 0.5s ease;
+ box-shadow: inset 0px -60px 50px -20px rgba(0, 0, 0, 0.35);
+}
+
+#filter_product_section:hover .filter_default_product {
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+
+
+#filter_product_section .filterproducts img {
+     width: 100%;
+    height: 306px;
+}
+
+
+#filter_product_section .filter_product_info {
+    padding: 20px;
+}
+
+#filter_product_section .filter_product_info .product_title h3 a {
+    color: var(--heading-color);
+}
+
+
+#filter_product_section .filter_product_info .product_title h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    height: 2.4rem;
+    overflow: hidden;
+
+}
+
+#filter_product_section .filter_product_price {
+    margin-bottom: 0.5rem;
+}
+
+#filter_product_section .filter_product_price span {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+
+#filter_product_section .filter_product_rating {
+    margin-bottom: 1rem;
+    color: #ffc107;
+    font-size: 0.875rem;
+}
+
+
+#filter_product_section .filter_product_rating span {
+    margin-left: 4px;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    font-size: 0.75rem;
+}
+
+
+
+#filter_product_section .filter_cart_button_section .cart_button {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    width: 80%;
+    text-align:center;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--contrast-color);
+    background-color: var(--accent-color);
+    border-radius: 30px;
+    border:none;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+#filter_product_section .filter_cart_button_section .cart_button:hover{
+    transform: translateY(-2px);
+    transition: 0.2s ease;
+}
+
+#filter_product_section .filter_cart_button_section .cart_button i {
+    font-size: 1rem;
+    margin-right: .5rem;
+}
+
+
+
+#filter_product_section:hover .filter_cart_button_section .cart_button{
+    opacity: 1;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1341,7 +1599,7 @@
     }
 
     #best_product_section {
-       width: 45%;
+        width: 45%;
     }
 
 
