@@ -101,6 +101,7 @@ function fun1(m,n){
   m.style.color="var(--contrast-color)";
 
   document.getElementById(n).style.display="flex";
+  document.getElementById(n).classList.add("active");
  
 
 }

@@ -1142,23 +1142,13 @@
     color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.mewsletter_form_content #input1 {
-    height: 54px;
-    border-radius: 50px;
-    padding: 10px 25px;
-    width: 100%;
-    color: var(--default-color);
-    background-color: var(--surface-color);
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
-    font-size: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+
+.newsletter_form_content {
+    position: relative;
 }
 
-.newsletter_form_content{
-    position:relative;
-}
-
-.newsletter_form_content input[type=email] {
+.newsletter_form_content #input1 {
     height: 54px;
     border-radius: 50px;
     padding: 10px 25px;
@@ -1167,8 +1157,8 @@
     background-color: var(--surface-color);
     border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
     font-size: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    
+    box-shadow: 0 4px 12px rgba(242, 26, 26, 0.05);
+
 }
 
 
@@ -1486,6 +1476,7 @@
     /* All, Clothing, Accessories, Electronic Section ------------------------------------------------------------------------- */
 
 
+
     #product_all_main_section {
         padding: 30px 10px;
     }
@@ -1495,13 +1486,60 @@
     }
 
     .product_display_section {
+        display: none;
         flex-direction: column;
+
     }
 
+   
     #filter_product_section {
         background: #f8f9fa;
         width: 100%;
     }
+
+    #view_all_product_section {
+        padding: 20px 10px;
+    }
+
+
+
+    /* Join Our Newsletter Section -------------------------------------------------------------------------------------------------------------------- */
+
+    #join_our_newsletter_section {
+        padding: 60px 10px;
+    }
+
+    .join_content_section {
+        text-align: center;
+    }
+
+      .newsletter_form_content {
+        width: 100%;
+        position: relative;
+    }
+
+    .newsletter_form_content #input1 {
+        width: 100%;
+        padding-right: 110px;
+        box-sizing: border-box;
+    }
+
+    .newsletter_form_content #btn {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        bottom: 5px;
+        height: auto;
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
+    
+
+
+
+
+
 
 
 
@@ -1745,9 +1783,13 @@
 
     /* All, Clothing, Accessories, Electronic Section ------------------------------------------------------------------------- */
 
+    .product_display_section {
+        gap: 29px;
+    }
 
     #product_all_main_section {
         padding: 30px 10px;
+
     }
 
     #product_filter_heading {
@@ -1761,6 +1803,16 @@
 
 
 
+    /* Join Our Newsletter Section ------------------------------------------------------------------------ */
+
+
+    #join_our_newsletter_section {
+           padding: 60px 10px;
+    }
+
+     .join_content_section{
+        text-align: center;
+     }
 
 
 
