@@ -386,7 +386,7 @@
                             alt="hover_product1">
                     </div>
                     <div class="product_tag">
-                        <span class="new_tag">New</span>
+                        <span class="new_tag">Sale</span>
                     </div>
                     <div class="product_actions">
                         <button class="heart_icon button" type="button">
@@ -521,14 +521,23 @@
 
     <section>
 
-        <div id="product_all_main_section">
+        <div id="product_all_main_section" class="scroll-reveal">
             <div id="product_filter_heading">
-                <button class="all_btn button" onclick="fun1()">All</button>
-                <button class="clothing_btn button" onclick="fun1()">Clothing</button>
-                <button class="accessories_btn button" onclick="fun1()">Accessories</button>
-                <button class="electonics_btn button" onclick="fun1()">Electonics</button>
+                <button class="all_btn button active-btn "
+                    onclick="fun1(this,'product_All_display_section1')">All</button>
+                <button class="clothing_btn button"
+                    onclick="fun1(this,'product_Clothing_display_section2')">Clothing</button>
+                <button class="accessories_btn button"
+                    onclick="fun1(this,'product_Accessories_display_section3')">Accessories</button>
+                <button class="electonics_btn button"
+                    onclick="fun1(this,'product_Electronics_display_section4')">Electonics</button>
             </div>
-            <div id="product_display_section">
+
+            <!-- All Display Section  ------------------------------------------------------------------------------------------------------------>
+
+            <div id="product_All_display_section1" class="product_display_section">
+
+                <!-- ye ek single product he  -->
                 <div id="filter_product_section">
                     <div class="filterproduct1 filterproducts">
                         <img src="assets/images/product-11.webp" class="filter_default_product" alt="filterproduct1">
@@ -548,7 +557,426 @@
                         <button class="eye_icon button" type="button">
                             <i class="bi bi-eye"></i>
                         </button>
-                          <button class="eye_icon button" type="button">
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-9.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-9-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-3.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-3-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-4.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-4-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-5.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-5-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-6.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-6-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-7.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-7-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-8.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-8-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Clothing display Section -------------------------------------------------------------------------------------------------------------------- -->
+
+            <div id="product_Clothing_display_section2" class="product_display_section">
+
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-11.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-11-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-4.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-4-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
                             <i class="bi bi-arrow-left-right"></i>
                         </button>
                     </div>
@@ -576,8 +1004,329 @@
 
 
 
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-7.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-7-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Accessories display Section -------------------------------------------------------------------------------------------------------------------- -->
+
+            <div id="product_Accessories_display_section3" class="product_display_section">
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-3.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-3-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-6.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-6-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+            <!-- Electronics display Section -------------------------------------------------------------------------------------------------------------------- -->
+
+            <div id="product_Electronics_display_section4" class="product_display_section">
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-9.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-9-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-5.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-5-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- ye ek single product he  -->
+                <div id="filter_product_section">
+                    <div class="filterproduct1 filterproducts">
+                        <img src="assets/images/product-8.webp" class="filter_default_product" alt="filterproduct1">
+                        <img src="assets/images/product-8-variant.webp"
+                            class="hover_filter_product1 hover_filter_product" alt="hover_filterproduct1">
+                    </div>
+                    <div class="filter_product_tag">
+                        <span class="sale_tag">Sale</span>
+                    </div>
+                    <div class="filter_cart_button_section">
+                        <button class="cart_button"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
+                    </div>
+                    <div class="filter_product_actions">
+                        <button class="heart_icon button" type="button">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                        <button class="eye_icon button" type="button">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter_product_info">
+                        <div class="product_title">
+                            <h3><a href="product-details.html">Lorem ipsum dolor sit amet</a></h3>
+                        </div>
+
+                        <div class="filter_product_price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="filter_product_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <span class="rating-count">(42)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- view_all_product button  -->
+            <div id="view_all_product_section">
+                <a href="#" class="view-all-btn">View All Products<i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
+    </section>
+
+
+
+
+    <!---Join Our Newsletter Section ------------------------------------------------------------------------------- -->
+
+
+    <section>
+        
+        <div id="join_our_newsletter_section">
+            <div class="join_content_section">
+                <h2>Join Our Newsletter</h2>
+                <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+                <form action="" method="">
+                    <div class="newsletter_form_content">
+                        <input  id="input1" type="email" name="email" placeholder="Your email address" required="">
+                        <button id="btn" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
     </section>
 
 

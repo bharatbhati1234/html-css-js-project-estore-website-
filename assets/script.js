@@ -1,5 +1,5 @@
 
-// nav1_part2 Navbar ------------------------------------------------
+// nav1_part2 Navbar Swiper------------------------------------------------
 
 var swiper = new Swiper(".mySwiper", {
     direction: "vertical",
@@ -36,7 +36,7 @@ function fun2(){
 
 
 
-// onscroll animation -----------------------------------------------------
+// OnScroll Animation -----------------------------------------------------
 
 
   const srElements = document.querySelectorAll(".scroll-reveal");
@@ -53,7 +53,7 @@ function fun2(){
 
 
 
-// category swiper -------------------------------------------------------------------------------------------------
+// Category Swiper -------------------------------------------------------------------------------------------------
 
 
 var categorySwiper = new Swiper(".categorySwiper", {
@@ -79,6 +79,31 @@ var categorySwiper = new Swiper(".categorySwiper", {
 });
 
 
+
+// All, Clothing, Accessories, Electronics Section (Navs and Tabs)---------------------------------------------------------------------------------------------
+
+
+
+function fun1(m,n){
+   let button = document.querySelectorAll('.button');
+  let product_display_section = document.querySelectorAll('.product_display_section')
+  for(let i=0; i<product_display_section.length; i++){
+    product_display_section[i].style.display="none"
+    
+  }
+
+  for(let j=0; j<button.length; j++){
+    button[j].style.color=" var(--default-color)";
+    button[j].style.backgroundColor=" color-mix(in srgb, var(--default-color), transparent 95%)";
+  }
+
+  m.style.backgroundColor="var(--accent-color)";
+  m.style.color="var(--contrast-color)";
+
+  document.getElementById(n).style.display="flex";
+ 
+
+}
 
 
 

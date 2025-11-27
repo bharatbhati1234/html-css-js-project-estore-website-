@@ -833,6 +833,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-bottom: 60px;
 }
 
 
@@ -842,9 +843,20 @@
     font-weight: 600;
     color: var(--default-color);
     cursor: pointer;
+    border: none;
     border-radius: 30px;
     background-color: color-mix(in srgb, var(--default-color), transparent 95%);
     transition: all 0.3s ease;
+}
+
+#product_filter_heading .button.active-btn {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+}
+
+#product_filter_heading .button:hover {
+    color: var(--contrast-color);
+    background-color: var(--accent-color);
 }
 
 
@@ -853,7 +865,7 @@
 
 #filter_product_section {
     background: #f8f9fa;
-    width: 25%;
+    width: 24%;
     border-radius: 10px;
     position: relative;
     transition: 0.4s ease;
@@ -871,13 +883,12 @@
 
 
 #filter_product_section .filter_product_tag .sale_tag {
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 500;
     color: var(--contrast-color);
     background-color: var(--accent-color);
-    padding: 0.35em 0.65em;
-    font-size: 0.75em;
-    font-weight: 500;
-    border-radius: 4px;
-    margin-right: 5px;
+    border-radius: 30px;
     position: absolute;
     top: 15px;
     left: 15px;
@@ -901,7 +912,7 @@
     position: absolute;
     bottom: 38%;
     right: 35%;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -916,15 +927,15 @@
 #filter_product_section .filter_product_actions .button {
     opacity: 0;
     transition: 0.2s ease;
-   
+
 }
 
-#filter_product_section .filter_product_actions .button i{
+#filter_product_section .filter_product_actions .button i {
     font-size: 16px;
 }
 
 #filter_product_section:hover .filter_product_actions .button {
-   opacity: 1;
+    opacity: 1;
 
 }
 
@@ -945,7 +956,7 @@
 #filter_product_section:hover .filterproducts .hover_filter_product {
     opacity: 1;
     transition: 0.5s ease;
- box-shadow: inset 0px -60px 50px -20px rgba(0, 0, 0, 0.35);
+    box-shadow: inset 0px -60px 50px -20px rgba(0, 0, 0, 0.35);
 }
 
 #filter_product_section:hover .filter_default_product {
@@ -956,7 +967,7 @@
 
 
 #filter_product_section .filterproducts img {
-     width: 100%;
+    width: 100%;
     height: 306px;
 }
 
@@ -1010,19 +1021,19 @@
     top: 40%;
     right: 10%;
     width: 80%;
-    text-align:center;
+    text-align: center;
     padding: 10px 20px;
     font-size: 14px;
     font-weight: 500;
     color: var(--contrast-color);
     background-color: var(--accent-color);
     border-radius: 30px;
-    border:none;
+    border: none;
     opacity: 0;
     transition: all 0.3s ease;
 }
 
-#filter_product_section .filter_cart_button_section .cart_button:hover{
+#filter_product_section .filter_cart_button_section .cart_button:hover {
     transform: translateY(-2px);
     transition: 0.2s ease;
 }
@@ -1034,41 +1045,147 @@
 
 
 
-#filter_product_section:hover .filter_cart_button_section .cart_button{
+#filter_product_section:hover .filter_cart_button_section .cart_button {
     opacity: 1;
-} 
+}
+
+
+
+
+.product_display_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    transition: 0.5s ease;
+}
 
 
 
 
 
 
+#product_Clothing_display_section2 {
+    display: none;
+}
+
+
+#product_Accessories_display_section3 {
+    display: none;
+}
+
+#product_Electronics_display_section4 {
+    display: none;
+}
+
+
+
+
+/* View All Products Section ----------------------------------------------------------------------------------- */
+
+
+#view_all_product_section {
+    padding: 20px 120px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#view_all_product_section .view-all-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--contrast-color);
+    background-color: var(--accent-color);
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
 
 
 
 
 
+/* Join Our Newsletter Section -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
 
+#join_our_newsletter_section {
+    padding: 60px 120px;
+    background-color: #f3f6fb;
+}
 
 
+.join_content_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
+.join_content_section h2 {
+    color: var(--heading-color);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.join_content_section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.mewsletter_form_content #input1 {
+    height: 54px;
+    border-radius: 50px;
+    padding: 10px 25px;
+    width: 100%;
+    color: var(--default-color);
+    background-color: var(--surface-color);
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
+    font-size: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.newsletter_form_content{
+    position:relative;
+}
+
+.newsletter_form_content input[type=email] {
+    height: 54px;
+    border-radius: 50px;
+    padding: 10px 25px;
+    width: 500px;
+    color: var(--default-color);
+    background-color: var(--surface-color);
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
+    font-size: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+.newsletter_form_content #btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border: 0;
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    transition: all 0.3s ease;
+    border-radius: 50px;
+    padding: 0 30px;
+    font-weight: 600;
+    font-size: 15px;
+}
 
 
 
@@ -1343,7 +1460,7 @@
 
 
     #best_seller_section {
-        padding: 60px 10px;
+        padding: 50px 10px;
     }
 
     #best_product_section {
@@ -1362,6 +1479,28 @@
     #best_product_section .products img {
         width: 100%;
         height: 100%;
+    }
+
+
+
+    /* All, Clothing, Accessories, Electronic Section ------------------------------------------------------------------------- */
+
+
+    #product_all_main_section {
+        padding: 30px 10px;
+    }
+
+    #product_filter_heading {
+        flex-wrap: wrap;
+    }
+
+    .product_display_section {
+        flex-direction: column;
+    }
+
+    #filter_product_section {
+        background: #f8f9fa;
+        width: 100%;
     }
 
 
@@ -1601,6 +1740,26 @@
     #best_product_section {
         width: 45%;
     }
+
+
+
+    /* All, Clothing, Accessories, Electronic Section ------------------------------------------------------------------------- */
+
+
+    #product_all_main_section {
+        padding: 30px 10px;
+    }
+
+    #product_filter_heading {
+        flex-wrap: wrap;
+    }
+
+    #filter_product_section {
+        width: 48%;
+    }
+
+
+
 
 
 
