@@ -1080,9 +1080,6 @@
 
 
 
-/* View All Products Section ----------------------------------------------------------------------------------- */
-
-
 #view_all_product_section {
     padding: 20px 120px;
     margin-top: 48px;
@@ -1105,6 +1102,20 @@
     border-radius: 30px;
     transition: all 0.3s ease;
 }
+
+#view_all_product_section .view-all-btn:hover {
+    background-color: color-mix(in srgb, var(--accent-color), #000 10%);
+}
+
+
+#view_all_product_section .view-all-btn:hover i {
+    transform: translateX(5px);
+    transition: 0.4s ease;
+
+}
+
+
+
 
 
 
@@ -1176,6 +1187,113 @@
     font-weight: 600;
     font-size: 15px;
 }
+
+
+
+.newsletter_form_content #btn:hover {
+    background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+
+/* Second Last Footer Section --------------------------------------------------------------------------------------------------- */
+
+#second_last_footer_mainsection {
+    padding: 70px 120px;
+}
+
+
+.second_last_footer_container {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+.second_last_footer_container .footer_section1 {
+    padding: 0px 12px;
+    width: 25%;
+}
+
+.second_last_footer_container .footer_section1 .logo {
+    color: var(--heading-color);
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-bottom: 20px !important;
+    transition: 0.3s;
+}
+
+
+.second_last_footer_container .footer_section1 p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+
+
+.second_last_footer_container .footer_contact_section .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: flex-start;
+}
+
+
+.second_last_footer_container .footer_contact_section .contact-item i {
+    color: var(--accent-color);
+    font-size: 18px;
+    margin-right: 12px;
+    margin-top: 3px;
+}
+
+.second_last_footer_container .footer_contact_section .contact-item span {
+    font-size: 14px;
+}
+
+
+
+
+.second_last_footer_container .footer_section2 {
+    padding: 0px 12px;
+    width: 16.66%;
+}
+
+
+.second_last_footer_container .footer_section2 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: var(--heading-color);
+}
+
+
+
+.second_last_footer_container .footer_section2 ul li {
+    margin-bottom: 12px;
+}
+
+.second_last_footer_container .footer_section2 ul li a {
+     display:inline-block;     /* inline-block esliye kiya taki espe transform property use kersake kiuki a tag ek inline element he esliye uspe fir transform use nahi hota  */
+     color: #212529; 
+     font-size: 14px;  
+}
+
+.second_last_footer_container .footer_section2 ul li:hover a{
+    transform: translateX(4px);
+    transition: 0.4s ease;
+    color: var(--accent-color);
+}
+
+
+
+
+
+
+
 
 
 
@@ -1491,7 +1609,7 @@
 
     }
 
-   
+
     #filter_product_section {
         background: #f8f9fa;
         width: 100%;
@@ -1513,7 +1631,7 @@
         text-align: center;
     }
 
-      .newsletter_form_content {
+    .newsletter_form_content {
         width: 100%;
         position: relative;
     }
@@ -1534,7 +1652,7 @@
         font-size: 14px;
     }
 
-    
+
 
 
 
@@ -1807,12 +1925,12 @@
 
 
     #join_our_newsletter_section {
-           padding: 60px 10px;
+        padding: 60px 10px;
     }
 
-     .join_content_section{
+    .join_content_section {
         text-align: center;
-     }
+    }
 
 
 
