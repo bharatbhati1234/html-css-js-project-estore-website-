@@ -1195,7 +1195,7 @@
 }
 
 
-/* Second Last Footer Section --------------------------------------------------------------------------------------------------- */
+/* Second Last Footer Main Section --------------------------------------------------------------------------------------------------- */
 
 #second_last_footer_mainsection {
     padding: 70px 120px;
@@ -1210,8 +1210,11 @@
 
 
 
+/* Second Last Footer Section 1 --------------------------------------------------------------------------------------------------- */
+
+
 .second_last_footer_container .footer_section1 {
-    padding: 0px 12px;
+    padding: 0px 5px;
     width: 25%;
 }
 
@@ -1252,9 +1255,16 @@
 
 .second_last_footer_container .footer_contact_section .contact-item span {
     font-size: 14px;
+        color: 
+ color-mix(in srgb, var(--default-color), transparent 30%);
+ line-height: 1.5;
+ 
 }
 
 
+
+
+/* Second Last Footer Section 2 --------------------------------------------------------------------------------------------------- */
 
 
 .second_last_footer_container .footer_section2 {
@@ -1276,13 +1286,146 @@
     margin-bottom: 12px;
 }
 
+
+
 .second_last_footer_container .footer_section2 ul li a {
-     display:inline-block;     /* inline-block esliye kiya taki espe transform property use kersake kiuki a tag ek inline element he esliye uspe fir transform use nahi hota  */
-     color: #212529; 
-     font-size: 14px;  
+    display: inline-block;
+    /* inline-block esliye kiya taki espe transform property use kersake kiuki a tag ek inline element he esliye uspe fir transform use nahi hota  */
+    color: #212529;
+    font-size: 14px;
+    color: 
+ color-mix(in srgb, var(--default-color), transparent 30%);
+ position: relative;
 }
 
-.second_last_footer_container .footer_section2 ul li:hover a{
+.second_last_footer_container .footer_section2 ul li:hover a {
+    transform: translateX(4px);
+    transition: 0.4s ease;
+    color: var(--accent-color);
+}
+
+
+
+.second_last_footer_container .footer_section2 ul li a:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 0px;
+    width: 0%;
+    height: 2px;
+    background: navy;
+}
+
+
+.second_last_footer_container .footer_section2 ul li:hover a:before {
+    width: 100%;
+    transition: 0.4s ease;
+}
+
+
+
+
+
+/* Second Last Footer Section 3 --------------------------------------------------------------------------------------------------- */
+
+
+
+.second_last_footer_container .footer_section3 {
+    padding: 0px 12px;
+    width: 16.66%;
+}
+
+
+.second_last_footer_container .footer_section3 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: var(--heading-color);
+}
+
+
+
+.second_last_footer_container .footer_section3 ul li {
+    margin-bottom: 12px;
+}
+
+
+
+.second_last_footer_container .footer_section3 ul li a {
+    display: inline-block;
+    /* inline-block esliye kiya taki espe transform property use kersake kiuki a tag ek inline element he esliye uspe fir transform use nahi hota  */
+    color: #212529;
+    font-size: 14px;
+       color: 
+ color-mix(in srgb, var(--default-color), transparent 30%);
+ position: relative;
+}
+
+.second_last_footer_container .footer_section3 ul li:hover a {
+    transform: translateX(4px);
+    transition: 0.4s ease;
+    color: var(--accent-color);
+}
+
+
+
+.second_last_footer_container .footer_section3 ul li a:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 0px;
+    width: 0%;
+    height: 2px;
+    background: navy;
+}
+
+
+.second_last_footer_container .footer_section3 ul li:hover a:before {
+    width: 100%;
+    transition: 0.4s ease;
+}
+
+
+
+
+
+
+/* Second Last Footer Section 4 --------------------------------------------------------------------------------------------------- */
+
+
+
+.second_last_footer_container .footer_section4 {
+    padding: 0px 12px;
+    width: 16.66%;
+}
+
+
+.second_last_footer_container .footer_section4 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: var(--heading-color);
+}
+
+
+
+.second_last_footer_container .footer_section4 ul li {
+    margin-bottom: 12px;
+}
+
+
+
+.second_last_footer_container .footer_section4 ul li a {
+    display: inline-block;
+    /* inline-block esliye kiya taki espe transform property use kersake kiuki a tag ek inline element he esliye uspe fir transform use nahi hota  */
+    color: #212529;
+    font-size: 14px;
+       color: 
+ color-mix(in srgb, var(--default-color), transparent 30%);
+ position: relative;
+}
+
+.second_last_footer_container .footer_section4 ul li:hover a {
     transform: translateX(4px);
     transition: 0.4s ease;
     color: var(--accent-color);
@@ -1291,10 +1434,125 @@
 
 
 
+.second_last_footer_container .footer_section4 ul li a:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 0px;
+    width: 0%;
+    height: 2px;
+    background: navy;
+}
+
+
+.second_last_footer_container .footer_section4 ul li:hover a:before {
+    width: 100%;
+    transition: 0.4s ease;
+}
 
 
 
 
+/*  Second Last Footer Section 5 ----------------------------------------------------------------- */
+
+
+.second_last_footer_container .footer_section5 {
+    padding: 0px 12px;
+    width: 25%;
+
+}
+
+.second_last_footer_container .footer_section5 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+
+.second_last_footer_container .footer_section5 p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+.second_last_footer_container .footer_section5 .footer_button_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.second_last_footer_container .footer_section5 .footer_button_section a {
+    background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+    color: var(--default-color);
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.second_last_footer_container .footer_section5 .footer_button_section a:hover{
+    background-color: var(--accent-color);
+    transform: translateY(-3px);
+    color: var(--contrast-color);
+}
+
+
+.second_last_footer_container .footer_section5 .footer_button_section a i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.second_last_footer_container .footer_section5 .footer_button_section a span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+
+.second_last_footer_container .footer_section5 .social_links_section {
+    margin-top: 1.5rem !important;
+}
+
+
+
+.second_last_footer_container .footer_section5 .social_links_section h5 {
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.second_last_footer_container .footer_section5 .social_links_section .social_icons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+
+.second_last_footer_container .footer_section5 .social_links_section .social_icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color:color-mix(in srgb, var(--default-color), transparent 90%);
+    color: var(--default-color);
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+
+.second_last_footer_container .footer_section5 .social_links_section .social_icons a:hover{
+    background-color: var(--accent-color);
+    transform: rotate(360deg);
+    color: var(--contrast-color);
+}
+
+
+
+/*  */
 
 
 
@@ -1656,11 +1914,39 @@
 
 
 
+/* Second Last Footer Section ------------------------------------------------------------------------------------------------- */
+
+#second_last_footer_mainsection {
+    padding: 60px 10px;
+}
 
 
+.second_last_footer_container {
+    flex-direction: column;
+}
+
+.second_last_footer_container .footer_section1 {
+    width: 100%;
+}
 
 
+.second_last_footer_container .footer_section2 {
+    width: 100%;
+}
 
+
+.second_last_footer_container .footer_section3 {
+    width: 100%;
+}
+
+.second_last_footer_container .footer_section4 {
+    width: 100%;
+}
+
+
+.second_last_footer_container .footer_section5 {
+    width: 100%;
+}
 
 }
 
@@ -1935,9 +2221,42 @@
 
 
 
+/* Second Last Footer Section ------------------------------------------------------------------------------------------------- */
+
+#second_last_footer_mainsection
+ {
+    padding: 60px 10px;
+}
+
+
+.second_last_footer_container {
+    flex-wrap: wrap;
+}
 
 
 
+.second_last_footer_container .footer_section1 {
+    width: 47%;
+}
+
+
+.second_last_footer_container .footer_section2 {
+    width: 47%;
+}
+
+
+.second_last_footer_container .footer_section3 {
+    width: 47%;
+}
+
+.second_last_footer_container .footer_section4 {
+    width: 47%;
+}
+
+
+.second_last_footer_container .footer_section5 {
+    width: 47%;
+}
 
 
 
