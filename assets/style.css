@@ -1255,10 +1255,10 @@
 
 .second_last_footer_container .footer_contact_section .contact-item span {
     font-size: 14px;
-        color: 
- color-mix(in srgb, var(--default-color), transparent 30%);
- line-height: 1.5;
- 
+    color:
+        color-mix(in srgb, var(--default-color), transparent 30%);
+    line-height: 1.5;
+
 }
 
 
@@ -1293,9 +1293,9 @@
     /* inline-block esliye kiya taki espe transform property use kersake kiuki a tag ek inline element he esliye uspe fir transform use nahi hota  */
     color: #212529;
     font-size: 14px;
-    color: 
- color-mix(in srgb, var(--default-color), transparent 30%);
- position: relative;
+    color:
+        color-mix(in srgb, var(--default-color), transparent 30%);
+    position: relative;
 }
 
 .second_last_footer_container .footer_section2 ul li:hover a {
@@ -1356,9 +1356,9 @@
     /* inline-block esliye kiya taki espe transform property use kersake kiuki a tag ek inline element he esliye uspe fir transform use nahi hota  */
     color: #212529;
     font-size: 14px;
-       color: 
- color-mix(in srgb, var(--default-color), transparent 30%);
- position: relative;
+    color:
+        color-mix(in srgb, var(--default-color), transparent 30%);
+    position: relative;
 }
 
 .second_last_footer_container .footer_section3 ul li:hover a {
@@ -1420,9 +1420,9 @@
     /* inline-block esliye kiya taki espe transform property use kersake kiuki a tag ek inline element he esliye uspe fir transform use nahi hota  */
     color: #212529;
     font-size: 14px;
-       color: 
- color-mix(in srgb, var(--default-color), transparent 30%);
- position: relative;
+    color:
+        color-mix(in srgb, var(--default-color), transparent 30%);
+    position: relative;
 }
 
 .second_last_footer_container .footer_section4 ul li:hover a {
@@ -1491,7 +1491,7 @@
     transition: all 0.3s ease;
 }
 
-.second_last_footer_container .footer_section5 .footer_button_section a:hover{
+.second_last_footer_container .footer_section5 .footer_button_section a:hover {
     background-color: var(--accent-color);
     transform: translateY(-3px);
     color: var(--contrast-color);
@@ -1537,14 +1537,14 @@
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color:color-mix(in srgb, var(--default-color), transparent 90%);
+    background-color: color-mix(in srgb, var(--default-color), transparent 90%);
     color: var(--default-color);
     font-size: 16px;
     transition: all 0.3s ease;
 }
 
 
-.second_last_footer_container .footer_section5 .social_links_section .social_icons a:hover{
+.second_last_footer_container .footer_section5 .social_links_section .social_icons a:hover {
     background-color: var(--accent-color);
     transform: rotate(360deg);
     color: var(--contrast-color);
@@ -1552,9 +1552,105 @@
 
 
 
-/*  */
+/* last_footer --------------------------------------------------------------------------------------------------------- */
+
+#last_footer_main_section {
+    padding: 25px 120px;
+    background-color: #f3f6fb;
+}
 
 
+.last_footer_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.last_footer_container .we_accept_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.last_footer_container .we_accept_section .payment_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.last_footer_container .we_accept_section .payment_icons i {
+    font-size: 22px;
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    transition: color 0.3s ease;
+}
+
+.last_footer_container .we_accept_section .payment_icons i:hover {
+    color: var(--accent-color);
+}
+
+.last_footer_container .we_accept_section span {
+    font-size: 14px;
+    font-weight: 500;
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.last_footer_container .legal_links_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0px 15px;
+}
+
+.last_footer_container .legal_links_section a {
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    font-size: 13px;
+    transition: color 0.3s ease;
+}
+
+
+.last_footer_container .legal_links_section a:hover {
+    color: var(--accent-color);
+}
+
+.last_footer_container .copyright_section {
+    padding-top: 10px;
+}
+
+.last_footer_container .copyright_section p {
+    font-size: 14px;
+}
+
+.last_footer_container .copyright_section span {
+    font-size: 14px;
+}
+
+.last_footer_container .copyright_section strong {
+    color: color-mix(in srgb, var(--default-color), transparent 10%);
+    font-weight: bolder;
+}
+
+
+.last_footer_container .credits_section{
+    padding-top: 5px;
+}
+
+.last_footer_container .credits_section a{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.last_footer_container .credits_section a span{
+    font-size: 14px;
+    color: var(--default-color);
+}
 
 
 
@@ -1914,39 +2010,54 @@
 
 
 
-/* Second Last Footer Section ------------------------------------------------------------------------------------------------- */
+    /* Second Last Footer Section ------------------------------------------------------------------------------------------------- */
 
-#second_last_footer_mainsection {
-    padding: 60px 10px;
-}
-
-
-.second_last_footer_container {
-    flex-direction: column;
-}
-
-.second_last_footer_container .footer_section1 {
-    width: 100%;
-}
+    #second_last_footer_mainsection {
+        padding: 60px 10px;
+    }
 
 
-.second_last_footer_container .footer_section2 {
-    width: 100%;
-}
+    .second_last_footer_container {
+        flex-direction: column;
+    }
+
+    .second_last_footer_container .footer_section1 {
+        width: 100%;
+    }
 
 
-.second_last_footer_container .footer_section3 {
-    width: 100%;
-}
-
-.second_last_footer_container .footer_section4 {
-    width: 100%;
-}
+    .second_last_footer_container .footer_section2 {
+        width: 100%;
+    }
 
 
-.second_last_footer_container .footer_section5 {
-    width: 100%;
-}
+    .second_last_footer_container .footer_section3 {
+        width: 100%;
+    }
+
+    .second_last_footer_container .footer_section4 {
+        width: 100%;
+    }
+
+
+    .second_last_footer_container .footer_section5 {
+        width: 100%;
+    }
+
+    /* last footer -------------------------------------------------------------------------------------------------- */
+    
+
+    #last_footer_main_section {
+        padding: 25px 10px;
+    }
+
+    .last_footer_container .we_accept_section{
+        display:none;
+    }
+
+     .last_footer_container .legal_links_section{
+        display:none;
+    }
 
 }
 
@@ -2221,42 +2332,50 @@
 
 
 
-/* Second Last Footer Section ------------------------------------------------------------------------------------------------- */
+    /* Second Last Footer Section ------------------------------------------------------------------------------------------------- */
 
-#second_last_footer_mainsection
- {
-    padding: 60px 10px;
-}
-
-
-.second_last_footer_container {
-    flex-wrap: wrap;
-}
+    #second_last_footer_mainsection {
+        padding: 60px 10px;
+    }
 
 
-
-.second_last_footer_container .footer_section1 {
-    width: 47%;
-}
-
-
-.second_last_footer_container .footer_section2 {
-    width: 47%;
-}
+    .second_last_footer_container {
+        flex-wrap: wrap;
+    }
 
 
-.second_last_footer_container .footer_section3 {
-    width: 47%;
-}
 
-.second_last_footer_container .footer_section4 {
-    width: 47%;
-}
+    .second_last_footer_container .footer_section1 {
+        width: 47%;
+    }
 
 
-.second_last_footer_container .footer_section5 {
-    width: 47%;
-}
+    .second_last_footer_container .footer_section2 {
+        width: 47%;
+    }
+
+
+    .second_last_footer_container .footer_section3 {
+        width: 47%;
+    }
+
+    .second_last_footer_container .footer_section4 {
+        width: 47%;
+    }
+
+
+    .second_last_footer_container .footer_section5 {
+        width: 47%;
+    }
+
+
+
+    /* last_footer ----------------------------------------------------------------------------------------- */
+
+
+    #last_footer_main_section{
+        padding: 25px 10px;
+    }
 
 
 
